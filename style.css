@@ -222,3 +222,378 @@ footer {
 footer img {
     width: 30px;
 }
+
+/* ========================================
+   RESPONSIVIDADE PARA CELULAR E TABLETS
+   ======================================== */
+
+/* Para tablets (até 768px) */
+@media (max-width: 768px) {
+    /* HEADER */
+    header {
+        padding: 15px 30px;
+        flex-wrap: wrap;
+    }
+    
+    #minha-foto {
+        width: 50px;
+        height: 50px;
+    }
+    
+    .caixa-foto-nome h2 {
+        font-size: 16px;
+    }
+    
+    .caixa-botoes-header {
+        gap: 10px;
+        width: 100%;
+    }
+    
+    .caixa-botoes-header button {
+        padding: 8px 12px;
+        font-size: 11px;
+    }
+    
+    .caixa-botoes-header button img {
+        width: 20px;
+    }
+    
+    /* ESPAÇAMENTO */
+    .espacamento {
+        padding: 0px 30px;
+    }
+    
+    /* BANNER */
+    #banner {
+        height: auto;
+        padding: 30px 0;
+    }
+    
+    #banner h1 {
+        font-size: 28px;
+    }
+    
+    #banner p {
+        width: 100%;
+        font-size: 13px;
+    }
+    
+    #banner button {
+        padding: 12px 30px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        font-size: 13px;
+    }
+    
+    /* TECNOLOGIAS */
+    #caixa-tecnologias {
+        flex-wrap: wrap;
+        gap: 15px;
+        justify-content: flex-start;
+    }
+    
+    #caixa-tecnologias div {
+        flex: 1 1 calc(50% - 8px);
+        padding: 20px;
+    }
+    
+    #tecnologias h3 {
+        font-size: 18px;
+    }
+    
+    /* CAIXA FINAL */
+    #caixa-final {
+        flex-direction: column;
+        gap: 30px;
+    }
+    
+    #bater-papo {
+        width: 100%;
+    }
+    
+    #bater-papo p {
+        width: 100%;
+        font-size: 13px;
+    }
+    
+    #projetos {
+        width: 100%;
+    }
+    
+    .texto-descricao {
+        width: 100%;
+        font-size: 13px;
+    }
+    
+    .card-projeto h6 {
+        font-size: 16px;
+    }
+    
+    .card-projeto button {
+        padding: 6px 15px;
+        font-size: 10px;
+        margin-bottom: 5px;
+    }
+    
+    footer {
+        height: auto;
+        padding: 20px;
+    }
+    
+    footer p {
+        font-size: 12px;
+    }
+}
+
+/* Para celulares (até 480px) */
+@media (max-width: 480px) {
+    /* HEADER */
+    header {
+        padding: 12px 15px;
+        gap: 10px;
+    }
+    
+    .caixa-foto-nome {
+        width: 100%;
+        justify-content: space-between;
+    }
+    
+    .caixa-foto-nome h2 {
+        font-size: 14px;
+    }
+    
+    #minha-foto {
+        width: 45px;
+        height: 45px;
+    }
+    
+    .caixa-botoes-header {
+        width: 100%;
+        gap: 6px;
+        flex-wrap: wrap;
+    }
+    
+    .caixa-botoes-header button {
+        padding: 6px 8px;
+        font-size: 9px;
+        flex: 1;
+    }
+    
+    #botao-curriculo {
+        flex: 1 1 100%;
+    }
+    
+    .caixa-botoes-header button img {
+        width: 14px;
+    }
+    
+    /* ESPAÇAMENTO */
+    .espacamento {
+        padding: 0px 15px;
+    }
+    
+    /* BANNER */
+    #banner {
+        height: auto;
+        padding: 20px 0;
+        gap: 20px;
+    }
+    
+    #banner h1 {
+        font-size: 20px;
+        line-height: 1.3;
+    }
+    
+    #banner p {
+        width: 100%;
+        font-size: 11px;
+        line-height: 1.5;
+    }
+    
+    #banner > div {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #banner button {
+        width: 100%;
+        padding: 12px 15px;
+        margin-right: 0;
+        margin-bottom: 8px;
+        font-size: 12px;
+    }
+    
+    /* TECNOLOGIAS */
+    #tecnologias {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    
+    #caixa-tecnologias {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    #caixa-tecnologias div {
+        flex: 1;
+        padding: 15px;
+    }
+    
+    #caixa-tecnologias img {
+        width: 60px;
+    }
+    
+    #tecnologias h3 {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    
+    /* CAIXA FINAL */
+    #caixa-final {
+        gap: 25px;
+    }
+    
+    #bater-papo h5 {
+        font-size: 16px;
+    }
+    
+    #bater-papo p {
+        width: 100%;
+        font-size: 11px;
+    }
+    
+    #bater-papo button {
+        width: 100%;
+        padding: 12px;
+        font-size: 12px;
+    }
+    
+    #projetos > h5 {
+        font-size: 16px;
+    }
+    
+    #projetos > h6 {
+        font-size: 12px;
+    }
+    
+    .card-projeto {
+        background-color: #f9f9f9;
+        padding: 12px;
+        border-radius: 5px;
+    }
+    
+    .card-projeto h6 {
+        font-size: 14px;
+    }
+    
+    .texto-tecnologias {
+        font-size: 11px;
+    }
+    
+    .texto-descricao {
+        width: 100%;
+        font-size: 11px;
+        line-height: 1.5;
+    }
+    
+    .card-projeto button {
+        padding: 6px 10px;
+        font-size: 9px;
+        margin-right: 5px;
+        margin-bottom: 5px;
+    }
+    
+    footer {
+        height: auto;
+        padding: 15px;
+        gap: 15px;
+    }
+    
+    footer img {
+        width: 20px;
+    }
+    
+    footer p {
+        font-size: 10px;
+        margin: 0;
+    }
+}
+
+  /* --- HEADER --- */
+  header {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 24px;
+  }
+
+  .caixa-botoes-header {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  /* --- ESPAÇAMENTO GERAL --- */
+  .espacamento {
+    padding: 0px 24px;
+  }
+
+  /* --- BANNER PRINCIPAL --- */
+  #banner {
+    height: auto;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    gap: 20px;
+  }
+
+  #banner h1 {
+    font-size: 30px;
+    line-height: 1.3;
+  }
+
+  #banner p {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  #banner button {
+    padding: 12px 30px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+
+  /* --- SEÇÃO DE TECNOLOGIAS --- */
+  #caixa-tecnologias {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  #caixa-tecnologias div {
+    padding: 20px 30px;
+  }
+
+  /* --- SEÇÃO FINAL (bater papo + projetos) --- */
+  #caixa-final {
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  #bater-papo {
+    width: 100%;
+  }
+
+  #projetos {
+    width: 100%;
+  }
+
+  /* --- CARDS DE PROJETO --- */
+  .texto-descricao {
+    width: 100%;
+  }
+
+  .card-projeto button {
+    margin-bottom: 8px;
+  }
+}
