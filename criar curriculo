@@ -1,0 +1,6 @@
+1- criar curriculo - OK
+2- declarar local que o curriculo esta salvo - OK
+3- encontrar e guardar o botao de baixar curriculo - OK
+4- fazer o javascript escutar o click do botao - OK
+5- ao clicar no botao e feito o download com o caminho do curriculo _ OK
+6- feito o download com uma copia do curriculo no computador da pessoa que clicou no botao
